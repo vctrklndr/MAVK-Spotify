@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./Assets/Styles/App.css";
+import Datagrid from "./Datagrid";
+import Computer from "./Computer";
+import Noise from "./Noise";
+import Disclaimer from "./Disclaimer";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <>
+        <Noise />
+        <div className="App">
+          <h1 className="Heading Heading--h1 marginTlg textCenter">LASER RACER</h1>
+          <h2 className="Heading Heading--h2 Heading--altColor textShadow">
+            79 MINUTES OF HI-FI 80'S TRACKS
+          </h2>
+          <Computer />
+          <Disclaimer />
+        </div>
+        <Datagrid />
+      </>
     );
   }
 }
