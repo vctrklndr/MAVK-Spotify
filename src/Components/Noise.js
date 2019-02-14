@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Assets/Styles/Noise.scss";
+import "../Assets/Styles/Noise.scss";
 
 function Noise() {
   return(

@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Assets/Styles/Disclaimer.scss";
+import "../Assets/Styles/Disclaimer.scss";
 
 function Disclaimer() {
   return (

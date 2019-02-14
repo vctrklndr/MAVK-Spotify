@@ -1,6 +1,6 @@
 import React from "react";
-import "./Assets/Styles/Computer.scss";
-import ComputerSrc from "./Assets/Images/computer-2.png";
+import "../Assets/Styles/Computer.scss";
+import ComputerSrc from "../Assets/Images/computer-2.png";
 import Player from "./Player";
 
 function Computer() {

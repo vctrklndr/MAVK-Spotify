@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Assets/Styles/Datagrid.scss";
+import "../Assets/Styles/Datagrid.scss";
 
 function Datagrid() {
   return (
