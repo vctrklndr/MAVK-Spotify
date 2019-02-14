@@ -1,0 +1,15 @@
+.Heading {
+  font-family: "Eurostile";
+  font-weight: bold;
+  &--h1 {
+    letter-spacing: 0.2rem;
+    font-size: 5rem;
+    color: #edfffe;
+  }
+  &--h2 {
+    font-size: 1rem;
+  }
+  &--altColor {
+    color: #e4d33a;
+  }
+}

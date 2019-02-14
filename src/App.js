@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Assets/Styles/App.css";
+import "./Assets/Styles/App.scss";
 import Datagrid from "./Datagrid";
 import Computer from "./Computer";
 import Noise from "./Noise";

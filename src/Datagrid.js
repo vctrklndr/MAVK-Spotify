@@ -1,8 +1,9 @@
 import React from 'react';
+import "./Assets/Styles/Datagrid.scss";
 
 function Datagrid() {
   return (
-    <div className="Grid-container" />
+    <div className="Datagrid" />
   );
 }
 

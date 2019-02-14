@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+
+body,
+html,
+#root,
+.App {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #1a1b13,
+    #2d2e27,
+    #294855,
+    #3c7b96,
+    #3188a9,
+    #34c8ca
+  );
+  /* background-image: linear-gradient(#ed0098, #feb300); */
+  /* background-color: #000; */
+  background-attachment: fixed;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
