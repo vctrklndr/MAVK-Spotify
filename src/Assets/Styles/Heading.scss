@@ -3,11 +3,20 @@
   font-weight: bold;
   &--h1 {
     letter-spacing: 0.2rem;
-    font-size: 5rem;
+    font-size: 3rem;
+    line-height: 2.8rem;
     color: #edfffe;
+    @media screen and (min-width: $medium) {
+      letter-spacing: 0.2rem;
+      font-size: 4rem;
+      line-height: initial;
+    }
   }
   &--h2 {
-    font-size: 1rem;
+    font-size: .7rem;
+    @media screen and (min-width: $medium) {
+      font-size: 1rem;
+    }
   }
   &--altColor {
     color: #e4d33a;

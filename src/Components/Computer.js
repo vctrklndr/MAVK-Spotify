@@ -7,7 +7,7 @@ function Computer() {
   return (
     <div className="Computer">
       <div className="Computer-screen Animation-flicker">
-        <Player width="327" height="241" />
+        <Player className="Player" />
       </div>
       <img
         src={ComputerSrc}

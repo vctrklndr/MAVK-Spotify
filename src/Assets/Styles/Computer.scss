@@ -1,33 +1,72 @@
+
+@import './Variables';
+
 .Computer {
-  width: 700px;
+  width: 300px;
   position: relative;
   z-index: 20;
+  @media screen and (min-width: $medium) {
+    width: 600px;
+  }
+  @media screen and (min-width: $large) {
+    width: 900px;
+  }
+
+  &-screen {
+    width: 140px;
+    height: 103px;
+    position: absolute;
+    top: 53px;
+    left: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 3px 3px 5px 5px;
+    overflow: hidden;
+    // border: 1px solid red;
+
+    @media screen and (min-width: $medium) {
+      top: 76px;
+      left: 154px;
+      width: 279px;
+      height: 204px;
+      border-radius: 7px 7px 7px 7px;
+    }
+
+    @media screen and (min-width: $large) {
+      top: 96px;
+      left: 230px;
+      width: 421px;
+      height: 310px;
+      border-radius: 12px 12px 12px 12px;
+    }
+  }
+
+  &-image {
+    width: 100%;
+  }
 }
 
-.Computer-screen {
-  /* padding: 3px 10px; */
-  width: 331px;
-  height: 244px;
-  position: absolute;
-  top: 81px;
-  left: 177px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  border-radius: 12px 12px 10px 10px;
-  overflow: hidden;
-  /* border: 1px solid red; */
+.Player {
+  width: 140px;
+  height: 104px;
+
+  @media screen and (min-width: $medium) {
+    width: 279px;
+    height: 204px;
+  }
+
+  @media screen and (min-width: $large) {
+    width: 422px;
+    height: 307px;
+  }
 }
 
-.Computer-image {
-  width: 100%;
-}
-
-.Animation-flicker {
-  animation: flicker 4s linear both;
-}
+// .Animation-flicker {
+//   animation: flicker 4s linear both;
+// }
 
 @keyframes flicker {
   0% {
