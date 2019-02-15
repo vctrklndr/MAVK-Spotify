@@ -1,6 +1,6 @@
 import React from "react";
 import "../Assets/Styles/Computer.scss";
-import ComputerSrc from "../Assets/Images/computer-3.png";
+import ComputerSrc from "../Assets/Images/computer.png";
 import Glitch from "../Assets/Images/glitch.gif";
 import Player from "./Player";
 
