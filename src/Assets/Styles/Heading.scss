@@ -1,6 +1,7 @@
 .Heading {
   font-family: "Eurostile";
   font-weight: bold;
+  transition: all $transition-speed;
   &--h1 {
     letter-spacing: 0.2rem;
     font-size: 3rem;

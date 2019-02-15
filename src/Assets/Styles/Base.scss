@@ -12,6 +12,7 @@ html,
 }
 
 body {
+  font-family: 'GT Pressura Mono';
   background-image: linear-gradient(
     to bottom,
     #1a1b13,
@@ -30,7 +31,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   position: relative;
   z-index: 2;
   text-align: center;
+  // @media screen and (min-width: $medium) {
+  //   justify-content: flex-start;
+  // }
+}
+
+::selection {
+  background-color: red;
 }

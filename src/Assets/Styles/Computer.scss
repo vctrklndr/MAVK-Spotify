@@ -1,10 +1,10 @@
-
 @import './Variables';
 
 .Computer {
   width: 300px;
   position: relative;
   z-index: 20;
+  transition: all $transition-speed;
   @media screen and (min-width: $medium) {
     width: 600px;
   }
@@ -25,14 +25,15 @@
     box-sizing: border-box;
     border-radius: 3px 3px 5px 5px;
     overflow: hidden;
+    transition: all $transition-speed;
     // border: 1px solid red;
 
     @media screen and (min-width: $medium) {
-      top: 76px;
-      left: 154px;
-      width: 279px;
-      height: 204px;
-      border-radius: 7px 7px 7px 7px;
+      top: 74px;
+      left: 152px;
+      width: 282px;
+      height: 206px;
+      border-radius: 7px 7px 11px 11px;
     }
 
     @media screen and (min-width: $large) {
@@ -40,7 +41,7 @@
       left: 230px;
       width: 421px;
       height: 310px;
-      border-radius: 12px 12px 12px 12px;
+      border-radius: 10px 10px 12px 12px;
     }
   }
 
@@ -52,21 +53,24 @@
 .Player {
   width: 140px;
   height: 104px;
+  position: absolute;
+  z-index: 100;
+  transition: all $transition-speed;
 
   @media screen and (min-width: $medium) {
-    width: 279px;
-    height: 204px;
+    width: 282px;
+    height: 206px;
   }
 
   @media screen and (min-width: $large) {
-    width: 422px;
-    height: 307px;
+    width: 421px;
+    height: 310px;
   }
 }
 
-// .Animation-flicker {
-//   animation: flicker 4s linear both;
-// }
+.Animation-flicker {
+  animation: flicker 4s linear both;
+}
 
 @keyframes flicker {
   0% {
