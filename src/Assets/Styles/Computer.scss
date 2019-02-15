@@ -26,22 +26,25 @@
     border-radius: 3px 3px 5px 5px;
     overflow: hidden;
     transition: all $transition-speed;
+    animation: flicker 4s linear both;
     // border: 1px solid red;
 
     @media screen and (min-width: $medium) {
-      top: 74px;
-      left: 152px;
-      width: 282px;
+      top: 76px;
+      left: 155px;
+      width: 277px;
       height: 206px;
       border-radius: 7px 7px 11px 11px;
+      transform: perspective(50em) rotateX(-5deg);
     }
 
     @media screen and (min-width: $large) {
-      top: 96px;
-      left: 230px;
-      width: 421px;
+      top: 100px;
+      left: 233px;
+      width: 415px;
       height: 310px;
       border-radius: 10px 10px 12px 12px;
+      transform: perspective(50em) rotateX(-5deg);
     }
   }
 
@@ -56,6 +59,7 @@
   position: absolute;
   z-index: 100;
   transition: all $transition-speed;
+  animation: flicker 4s linear both;
 
   @media screen and (min-width: $medium) {
     width: 282px;
@@ -68,9 +72,9 @@
   }
 }
 
-.Animation-flicker {
-  animation: flicker 4s linear both;
-}
+// .Animation-flicker {
+//   animation: flicker 4s linear both;
+// }
 
 @keyframes flicker {
   0% {
