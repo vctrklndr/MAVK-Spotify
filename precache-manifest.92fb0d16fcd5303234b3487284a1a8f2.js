@@ -8,8 +8,8 @@ self.__precacheManifest = [
     "url": "/MAVK-Spotify/static/media/glitch.f801a362.gif"
   },
   {
-    "revision": "0468c51db1dcc19ed74cd6f94810448f",
-    "url": "/MAVK-Spotify/static/media/computer.0468c51d.png"
+    "revision": "3fe42c3ef88c7397c2c54740c513620d",
+    "url": "/MAVK-Spotify/static/media/computer.3fe42c3e.png"
   },
   {
     "revision": "b57fdd065fc080701e1f3f364abfc2c3",
@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/MAVK-Spotify/static/js/runtime~main.8cf850a0.js"
   },
   {
-    "revision": "73c8acabb5dc6cb9cfde",
-    "url": "/MAVK-Spotify/static/js/main.73c8acab.chunk.js"
+    "revision": "73e27042a36d32f48908",
+    "url": "/MAVK-Spotify/static/js/main.73e27042.chunk.js"
   },
   {
     "revision": "0b4e6ed782cbf95827f0",
     "url": "/MAVK-Spotify/static/js/2.0b4e6ed7.chunk.js"
   },
   {
-    "revision": "73c8acabb5dc6cb9cfde",
-    "url": "/MAVK-Spotify/static/css/main.0e3c2a9e.chunk.css"
+    "revision": "73e27042a36d32f48908",
+    "url": "/MAVK-Spotify/static/css/main.f5a5959b.chunk.css"
   },
   {
-    "revision": "faea1c8389cc72621c4b121430032858",
+    "revision": "d1c20bc07cb3b58c2bd90939b179e16d",
     "url": "/MAVK-Spotify/index.html"
   }
 ];
