@@ -20,7 +20,7 @@ class Computer extends React.Component {
           glitchy: false
         });
       }.bind(this),
-      3000
+      4500
     );
   };
 

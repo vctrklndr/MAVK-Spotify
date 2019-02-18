@@ -53,6 +53,7 @@
   &-glitch {
     position: relative;
     z-index: 110;
+    animation: flicker 4s linear both;
   }
 }
 
