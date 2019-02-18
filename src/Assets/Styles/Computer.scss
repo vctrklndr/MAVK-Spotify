@@ -26,7 +26,6 @@
     border-radius: 3px 3px 5px 5px;
     overflow: hidden;
     transition: all $transition-speed;
-    animation: flicker 4s linear both;
     // border: 1px solid red;
 
     @media screen and (min-width: $medium) {
@@ -51,6 +50,10 @@
   &-image {
     width: 100%;
   }
+  &-glitch {
+    position: relative;
+    z-index: 110;
+  }
 }
 
 .Player {
@@ -59,7 +62,6 @@
   position: absolute;
   z-index: 100;
   transition: all $transition-speed;
-  animation: flicker 4s linear both;
 
   @media screen and (min-width: $medium) {
     width: 282px;

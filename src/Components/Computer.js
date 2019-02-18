@@ -20,14 +20,14 @@ class Computer extends React.Component {
           glitchy: false
         });
       }.bind(this),
-      4000
+      3000
     );
   };
 
-  glitchyImage = () => {
-    if(this.state.glitchy === true) {
+  renderComputerScreen = () => {
+    if (this.state.glitchy === true) {
       return (
-        <img src={Glitch} alt="Computer glitch" />
+        <img className="Computer-glitch" src={Glitch} alt="Computer glitch" />
       );
     } else {
       return;
@@ -37,9 +37,12 @@ class Computer extends React.Component {
   render() {
     return (
       <div className="Computer">
-        <div className="Computer-screen Animation-flicker">
-          {this.glitchyImage()}
-          <Player className="Player" />
+        <div className="Computer-screen">
+          {this.renderComputerScreen()}
+          <Player
+            className="Player"
+            src="https://open.spotify.com/embed/user/vict%25C3%25B8r/playlist/5vvVvlGahx4z1nGE1ZNBV3∏"
+          />
         </div>
         <img
           src={ComputerSrc}
