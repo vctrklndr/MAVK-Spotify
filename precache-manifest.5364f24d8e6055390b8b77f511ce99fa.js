@@ -24,19 +24,19 @@ self.__precacheManifest = [
     "url": "/MAVK-Spotify/static/js/runtime~main.8cf850a0.js"
   },
   {
-    "revision": "8a014ffdbb39915a1d7d",
-    "url": "/MAVK-Spotify/static/js/main.8a014ffd.chunk.js"
+    "revision": "89722a7a1d9b1ebe556a",
+    "url": "/MAVK-Spotify/static/js/main.89722a7a.chunk.js"
   },
   {
     "revision": "0b4e6ed782cbf95827f0",
     "url": "/MAVK-Spotify/static/js/2.0b4e6ed7.chunk.js"
   },
   {
-    "revision": "8a014ffdbb39915a1d7d",
-    "url": "/MAVK-Spotify/static/css/main.eaf3c5ff.chunk.css"
+    "revision": "89722a7a1d9b1ebe556a",
+    "url": "/MAVK-Spotify/static/css/main.de5bfb76.chunk.css"
   },
   {
-    "revision": "8b3762162587c5a0559d25e35006a388",
+    "revision": "14a888f2ccfe7c2decbb3d8d0541815a",
     "url": "/MAVK-Spotify/index.html"
   }
 ];
