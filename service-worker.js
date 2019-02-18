@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/MAVK-Spotify/precache-manifest.92fb0d16fcd5303234b3487284a1a8f2.js"
+  "/MAVK-Spotify/precache-manifest.285c95b0b6f79a1f1a04ab4659505a7e.js"
 );
 
 workbox.clientsClaim();
